@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Face Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 0;
+            font-size: 24px;
+        }
+        .container {
+            margin-top: 20px;
+            padding: 20px;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        img {
+            border: 5px solid #007bff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>Live Face Detection</header>
+    <div class="container">
+        <p>Welcome to the Live face Detection. This system detects blinks and helps in liveness detection.</p>
+        <div class="video-container">
+            <img src="{{ url_for('video_feed') }}" width="640" height="480">
+        </div>
+    </div>
+    <div class="footer">&copy; 2025 Live Face Detection</div>
+</body>
+</html>
