@@ -1,6 +1,6 @@
 # Face Liveness Detection
 
-This project is a **real-time face liveness detection system** built using **Flask** and **OpenCV**. It detects faces and eyes via webcam and determines whether the face is "Real" (live) or "Spoof" (e.g., a photo) based on blink detection.
+This project is a **real-time face liveness detection system** built using **Flask** and **OpenCV**. It detects faces and eyes via webcam and determines whether the face is "Real" (live) or "Spoof" (e.g., a photo of photo) based on blink detection.
 
 ---
 
